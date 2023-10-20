@@ -1,1 +1,2 @@
-pip install src/requirements.txt
+pip install -r src/requirements.txt
+pip install gunicorn
