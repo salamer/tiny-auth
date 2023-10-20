@@ -1,1 +1,1 @@
-pip install samples-python-flask/requirements.txt
+pip install src/requirements.txt
