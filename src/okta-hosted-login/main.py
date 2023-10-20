@@ -77,6 +77,7 @@ def callback():
         data=query_params,
         auth=(config["client_id"], config["client_secret"]),
     ).json()
+    print(exchange, config)
 
     # Get tokens and validate
     if not exchange.get("token_type"):
